@@ -29,6 +29,7 @@ RUN apt-get install -y --no-install-recommends temurin-21-jdk
 # Set environment variables for the JDK installations
 ENV JAVA_HOME_8_X64=/usr/lib/jvm/temurin-8-jdk-amd64
 ENV JAVA_HOME_11_X64=/usr/lib/jvm/temurin-11-jdk-amd64
+ENV JAVA_HOME_17_X64=/usr/lib/jvm/temurin-17-jdk-amd64
 ENV JAVA_HOME_21_X64=/usr/lib/jvm/temurin-21-jdk-amd64
 ENV PATH=$PATH:/usr/lib/jvm/temurin-8-jdk-amd64/bin:/usr/lib/jvm/temurin-11-jdk-amd64/bin:/usr/lib/jvm/temurin-21-jdk-amd64/bin
 
