@@ -33,7 +33,7 @@ ENV JAVA_HOME_21_X64=/usr/lib/jvm/temurin-21-jdk-amd64
 ENV PATH=$PATH:/usr/lib/jvm/temurin-8-jdk-amd64/bin:/usr/lib/jvm/temurin-11-jdk-amd64/bin:/usr/lib/jvm/temurin-21-jdk-amd64/bin
 
 # Set the default JDK to use
-ENV JAVA_HOME=/usr/lib/jvm/temurin-11-jdk-amd64
+ENV JAVA_HOME=/usr/lib/jvm/temurin-21-jdk-amd64
 
 # Additional configuration or cleanup if necessary
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
