@@ -1,0 +1,7 @@
+teamcity-agent:
+    image: ghcr.io/sidpatchy/teamcity-agent-jdk-lts:main
+    environment:
+      - SERVER_URL=<teamcity_server_url>
+    volumes:
+      - ./agentconf:/data/teamcity_agent/conf
+    restart: unless-stopped
